@@ -1,49 +1,47 @@
 .nav-bar{
     background-color: rgb(58, 56, 56);
-    
     height: 50px;
 }
 
 
-.container-1{
-    background-color: rgb(41, 196, 149);
-    display: flex;
-    justify-content: center;
+
+.header-container{
+    background-color: #19bc9b;
+    padding: 50px 0;
 }
 
-.box-1{
-    width: 350px;
-    height: 260px;
-    background-color: cornflowerblue;
-    justify-content: center;
-}
-
-
-
-.container-2{
-    background-color: rgb(255, 255, 255);
-    display: flex; 
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-/*  
-.portfolio-titolo{
+.header-content{
     text-align: center;
-    height: 20px;
 }
-*/
 
-.img-row{
-   background-color: rgb(192, 136, 147);
-   height: 150px;
-   border: lavenderblush solid 3px;
-  
-   
+
+h2{
+    font-size: 30px;
+    color: white;
+}
+
+.i::after{
+   border: 2px solid black; 
+   width: 10px;
+   height: 2px;
+   flex-grow: ;
+}
+
+h4{
+    color: white;
+}
+
+
+.container{
+    text-align: center;
+}
+
+.box{ 
+   margin-bottom: 20px;  
 }
 
 .container-3{
-    background-color: rgb(4, 185, 131);
+    background-color: #19bc9b;
     display: flex; 
     flex-wrap: wrap;
     justify-content: center;
@@ -51,17 +49,37 @@
 
 
 .box-3{
-    width: 250px;
-    height: 200px;
-    background-color: cornflowerblue;
-    justify-content: center;
+    width: 550px;
+    height: 210px;
+    text-align: center;
+    padding: 10px;
 }
 
-.col-box-3{
-    
-    font-size: 9px;
-    border: blueviolet solid 3px;
+#color-h3{
+    color: white;
 }
+.star-3{
+    color: white;
+}
+.col-box-3{
+    color: white;
+    text-align: left;
+    font-size: 11px;
+    margin-left: 10px;
+}
+
+
+.button{
+    color: white;
+    background-color: #19bc9b;
+    width: 100px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 15px;
+    border: white solid 1px;
+    border-radius: 5px 5px 5px 5px;
+}
+
 
 .footer-1{
     background-color: rgb(35, 35, 110);
