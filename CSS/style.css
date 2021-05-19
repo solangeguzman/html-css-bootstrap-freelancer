@@ -1,11 +1,30 @@
-.nav-bar{
-    background-color: rgb(58, 56, 56);
-    height: 50px;
+.bg-custom-color{
+    background-color: #2c3d4f;
 }
 
 
+.navbar .nav-brand{
+    font-weight: bold;
+   
+    
+}
 
+.navbar .navbar-collapse{
+    flex-grow: 0;
+}
+
+
+.navbar-dark .navbar-toggler{
+    border: 1px #ccc solid;
+}
+
+/*  
+.text-nav{
+margin-right: 20px; 
+}
+*/
 .header-container{
+  margin-top: 50px;
     background-color: #19bc9b;
     padding: 50px 0;
 }
@@ -20,7 +39,34 @@ h2{
     color: white;
 }
 
-.i::after{
+
+
+.start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start i{
+ margin: 0 10px;
+}
+.line{
+    height: 2px;
+    width: 100px;
+    border-radius: 3px;
+}
+
+
+.line{
+     background-color: black;
+}
+
+.line-two{
+    background-color: white;
+}
+
+
+.header-container::after i{
    border: 2px solid black; 
    width: 10px;
    height: 2px;
@@ -121,17 +167,12 @@ margin-bottom: 10px;
 /* --------------- */
 
 
-/*  
-.container-5{
-    height: 200px;
-}
 
-*/
 
 
 footer{
     background-color: rgb(30, 59, 77);
-     display: flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
